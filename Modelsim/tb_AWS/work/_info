@@ -1,0 +1,233 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL/Addierwerk/Code/Modelsim/tb_Addierwerk
+Eaddierwerk
+Z1 w1623079369
+!i122 2
+R0
+Z2 8../../VHDL_rtl/Addierwerk.vhd
+Z3 F../../VHDL_rtl/Addierwerk.vhd
+l0
+L1 1
+VE0e1dDY0eSZEF@2F2DnRl1
+!s100 S`RGEMlUWYKQWF[7N5D]W3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1623081764
+!i10b 1
+Z6 !s108 1623081764.000000
+Z7 !s90 -reportprogress|300|-work|work|../../VHDL_rtl/Addierwerk.vhd|
+Z8 !s107 ../../VHDL_rtl/Addierwerk.vhd|
+!i113 1
+Z9 o-work work
+Z10 tExplicit 1 CvgOpt 0
+Abeh_addierwerk_4bit
+DEx4 work 10 addierwerk 0 22 E0e1dDY0eSZEF@2F2DnRl1
+!i122 2
+l28
+L10 26
+V0oLY3h`WCoLUZhQCEiFXi2
+!s100 IGZko=kdDeKi8RKJoReEF1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Eaddierwerk_scale
+Z11 w1623165246
+!i122 23
+Z12 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL/Addierwerk_skalierbar/Code/Modelsim/tb_Addierwerk_skalierbar
+Z13 8../../VHDL_rtl/Addierwerk_scale.vhd
+Z14 F../../VHDL_rtl/Addierwerk_scale.vhd
+l0
+L1 1
+VL@jCkJ=<SKZbcHMP[oBCa2
+!s100 8@B?0=C`B`<T=FEW7iNXI2
+R4
+32
+Z15 !s110 1623166413
+!i10b 1
+Z16 !s108 1623166413.000000
+Z17 !s90 -reportprogress|300|-work|work|../../VHDL_rtl/Addierwerk_scale.vhd|
+Z18 !s107 ../../VHDL_rtl/Addierwerk_scale.vhd|
+!i113 1
+R9
+R10
+Abeh_addierwerk_scale
+DEx4 work 16 addierwerk_scale 0 22 L@jCkJ=<SKZbcHMP[oBCa2
+!i122 23
+l28
+L10 43
+VH?7D5=d@?JE2LYJB=V=gK0
+!s100 I0mj^Vhj0e2C4WdhiQC=`0
+R4
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R9
+R10
+Efulladder
+Z19 w1622471120
+!i122 22
+R12
+Z20 8../../VHDL_rtl/FullAdder.vhd
+Z21 F../../VHDL_rtl/FullAdder.vhd
+l0
+L1 1
+V0d[KnOn8GM6<ecE?EbT]W1
+!s100 D;Oz@7FRG=ZkRh`7HgN_A0
+R4
+32
+R15
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-work|work|../../VHDL_rtl/FullAdder.vhd|
+Z23 !s107 ../../VHDL_rtl/FullAdder.vhd|
+!i113 1
+R9
+R10
+Artl_fulladder
+DEx4 work 9 fulladder 0 22 0d[KnOn8GM6<ecE?EbT]W1
+!i122 22
+l11
+L7 26
+VbCXJC7R2C2eT61B]]DEMk2
+!s100 ;_>d<HCKa?oXhJigBWIO@2
+R4
+32
+R15
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R9
+R10
+Ehalfadder
+Z24 w1622196836
+!i122 21
+R12
+Z25 8../../VHDL_rtl/HalfAdder.vhd
+Z26 F../../VHDL_rtl/HalfAdder.vhd
+l0
+L1 1
+V=JbTNc<I]SU8C4b0TG?cU3
+!s100 zBGi<LG`Kmj0RS:o39:7i3
+R4
+32
+R15
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-work|work|../../VHDL_rtl/HalfAdder.vhd|
+Z28 !s107 ../../VHDL_rtl/HalfAdder.vhd|
+!i113 1
+R9
+R10
+Ahalfadder_rtl
+DEx4 work 9 halfadder 0 22 =JbTNc<I]SU8C4b0TG?cU3
+!i122 21
+l17
+L12 13
+VIcmM64[b>RcQG=`C=PmdX1
+!s100 8kMbO4><D^9`fjS3Ef@o<2
+R4
+32
+R15
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R9
+R10
+Etb_addierwerk
+Z29 w1623081232
+!i122 3
+R0
+Z30 8../../VHDL_beh/tb_Addierwerk/TB_Addierwerk.vhd
+Z31 F../../VHDL_beh/tb_Addierwerk/TB_Addierwerk.vhd
+l0
+L1 1
+Vo<7McdQ@5[Z:4m:7OmA8D3
+!s100 1OaLlfmeNDZ[XhaWnIo>O3
+R4
+32
+R5
+!i10b 1
+R6
+Z32 !s90 -reportprogress|300|-work|work|../../VHDL_beh/tb_Addierwerk/TB_Addierwerk.vhd|
+Z33 !s107 ../../VHDL_beh/tb_Addierwerk/TB_Addierwerk.vhd|
+!i113 1
+R9
+R10
+Abeh_addierwerk
+DEx4 work 13 tb_addierwerk 0 22 o<7McdQ@5[Z:4m:7OmA8D3
+!i122 3
+l21
+L6 22
+V:79HEGCm=dV7meZLn`Y5I3
+!s100 3g6eoffYK4h5jPP4H>O862
+R4
+32
+R5
+!i10b 1
+R6
+R32
+R33
+!i113 1
+R9
+R10
+Etb_addierwerk_scale
+Z34 w1623166028
+!i122 24
+R12
+Z35 8../../VHDL_beh/TB_Addierwerk_skalierbar/TB_Addierwerk_skalierbar.vhd
+Z36 F../../VHDL_beh/TB_Addierwerk_skalierbar/TB_Addierwerk_skalierbar.vhd
+l0
+L1 1
+Vm1bM7KK3gG_=c>BG]AAK51
+!s100 df2FcZX`EE[KI7kY3J4R?0
+R4
+32
+R15
+!i10b 1
+R16
+Z37 !s90 -reportprogress|300|-work|work|../../VHDL_beh/TB_Addierwerk_skalierbar/TB_Addierwerk_skalierbar.vhd|
+Z38 !s107 ../../VHDL_beh/TB_Addierwerk_skalierbar/TB_Addierwerk_skalierbar.vhd|
+!i113 1
+R9
+R10
+Abeh_addierwerk_scale
+Z39 DEx4 work 19 tb_addierwerk_scale 0 22 m1bM7KK3gG_=c>BG]AAK51
+!i122 24
+l22
+Z40 L7 22
+Z41 Vd^_H:C?ofABaezKeI37Xo0
+Z42 !s100 kEm77UB:P0:QQBI>ANIgc0
+R4
+32
+!s110 1623166414
+!i10b 1
+R16
+R37
+R38
+!i113 1
+R9
+R10

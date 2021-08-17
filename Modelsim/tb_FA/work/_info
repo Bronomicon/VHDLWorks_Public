@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL/FullAdder/Code/Modelsim/tb_FullAdder
+Efulladder
+Z1 w1622471120
+!i122 4
+R0
+Z2 8../../VHDL_rtl/FullAdder.vhd
+Z3 F../../VHDL_rtl/FullAdder.vhd
+l0
+L1 1
+V0d[KnOn8GM6<ecE?EbT]W1
+!s100 D;Oz@7FRG=ZkRh`7HgN_A0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1622471175
+!i10b 1
+Z6 !s108 1622471175.000000
+Z7 !s90 -reportprogress|300|-work|work|../../VHDL_rtl/FullAdder.vhd|
+Z8 !s107 ../../VHDL_rtl/FullAdder.vhd|
+!i113 1
+Z9 o-work work
+Z10 tExplicit 1 CvgOpt 0
+Artl_fulladder
+DEx4 work 9 fulladder 0 22 0d[KnOn8GM6<ecE?EbT]W1
+!i122 4
+l11
+L7 26
+VbCXJC7R2C2eT61B]]DEMk2
+!s100 ;_>d<HCKa?oXhJigBWIO@2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Etb_fulladder
+Z11 w1622467842
+!i122 5
+R0
+Z12 8../../VHDL_beh/tb_Fulladder/TB_FullAdder.vhd
+Z13 F../../VHDL_beh/tb_Fulladder/TB_FullAdder.vhd
+l0
+L1 1
+Vj[ihigmNBNn_66[F1]>k>3
+!s100 @J_dXHSFT=UjYF2L>Q`RL2
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|work|../../VHDL_beh/tb_Fulladder/TB_FullAdder.vhd|
+Z15 !s107 ../../VHDL_beh/tb_Fulladder/TB_FullAdder.vhd|
+!i113 1
+R9
+R10
+Abeh_fulladder
+Z16 DEx4 work 12 tb_fulladder 0 22 j[ihigmNBNn_66[F1]>k>3
+!i122 5
+l23
+Z17 L6 24
+Z18 VJof[KckK^[?6=^nzLQj:B1
+Z19 !s100 `Y0M:iI]DE4WShm<HodcI0
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10
