@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL_public/Modelsim/tb_AW
+Eaw
+Z1 w1629732113
+!i122 2
+R0
+Z2 8../../VHDL_rtl/AW_rtl.vhd
+Z3 F../../VHDL_rtl/AW_rtl.vhd
+l0
+L1 1
+VIoz1`L^mFXUCVPL52SV2>1
+!s100 oOm<@]TD9MVOzoY>OU[oh0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1629974392
+!i10b 1
+Z6 !s108 1629974392.000000
+Z7 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/AW_rtl.vhd|
+Z8 !s107 ../../VHDL_rtl/AW_rtl.vhd|
+!i113 1
+Z9 o-work MyWorkLib
+Z10 tExplicit 1 CvgOpt 0
+Aaw_4b_rtl
+DEx4 work 2 aw 0 22 Ioz1`L^mFXUCVPL52SV2>1
+!i122 2
+l28
+L10 26
+VXPhgF<7LI;V185`RgU[dd2
+!s100 D=U;Z7L`U`QbKJSda<9nc1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Efa
+Z11 w1629731934
+!i122 1
+R0
+Z12 8../../VHDL_rtl/FA_rtl.vhd
+Z13 F../../VHDL_rtl/FA_rtl.vhd
+l0
+L1 1
+V<Qc?`19NIj_1YnhNnFY8I1
+!s100 njDRR=QGmmACU2azZd4@_0
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/FA_rtl.vhd|
+Z15 !s107 ../../VHDL_rtl/FA_rtl.vhd|
+!i113 1
+R9
+R10
+Afa_rtl
+DEx4 work 2 fa 0 22 <Qc?`19NIj_1YnhNnFY8I1
+!i122 1
+l11
+L7 26
+Vj]J>Lj5;UVYFFgGd_@B^R1
+!s100 [d7z:^bXF@fCXmHVQV63I1
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10
+Eha
+Z16 w1629731859
+!i122 0
+R0
+Z17 8../../VHDL_rtl/HA_rtl.vhd
+Z18 F../../VHDL_rtl/HA_rtl.vhd
+l0
+L1 1
+Va`UcKNChO@8gCN0Co=@In3
+!s100 g_W8QhUdU2>aM^MS]8X<n3
+R4
+32
+R5
+!i10b 1
+R6
+Z19 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/HA_rtl.vhd|
+Z20 !s107 ../../VHDL_rtl/HA_rtl.vhd|
+!i113 1
+R9
+R10
+Aha_rtl
+DEx4 work 2 ha 0 22 a`UcKNChO@8gCN0Co=@In3
+!i122 0
+l17
+L12 13
+V=G6Q0dFA6QD4QSZnfo<kT1
+!s100 Y=l9cHZ6Z1S?f5ZWC>I@`3
+R4
+32
+R5
+!i10b 1
+R6
+R19
+R20
+!i113 1
+R9
+R10
+Etb_aw
+Z21 w1629810728
+!i122 3
+R0
+Z22 8../../VHDL_beh/tb_AW/TB_AW.vhd
+Z23 F../../VHDL_beh/tb_AW/TB_AW.vhd
+l0
+L1 1
+V3mkBBHfgfiAO5hn?mog350
+!s100 jNY9nSBz0okGHOFVMcd>50
+R4
+32
+R5
+!i10b 1
+R6
+Z24 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/tb_AW/TB_AW.vhd|
+!s107 ../../VHDL_beh/tb_AW/TB_AW.vhd|
+!i113 1
+R9
+R10
+Aaw_beh
+DEx4 work 5 tb_aw 0 22 3mkBBHfgfiAO5hn?mog350
+!i122 3
+l21
+L6 22
+VVioN<mdFL;ZT9^ak^DHY62
+!s100 2W1PkIod14fbF=K2WbNX30
+R4
+32
+R5
+!i10b 1
+R6
+R24
+Z25 !s107 ../../VHDL_beh/tb_AW/TB_AW.vhd|
+!i113 1
+R9
+R10

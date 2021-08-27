@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL_public/Modelsim/tb_AWS
+Eaws
+Z1 w1629732149
+!i122 10
+R0
+Z2 8../../VHDL_rtl/AWS_rtl.vhd
+Z3 F../../VHDL_rtl/AWS_rtl.vhd
+l0
+L1 1
+VR7zjCVzfDoIf;cl<n:zj`2
+!s100 G73Zin^4R`gc]5@;KJEAI2
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1629974724
+!i10b 1
+Z6 !s108 1629974724.000000
+Z7 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/AWS_rtl.vhd|
+Z8 !s107 ../../VHDL_rtl/AWS_rtl.vhd|
+!i113 1
+Z9 o-work MyWorkLib
+Z10 tExplicit 1 CvgOpt 0
+Aaws_rtl
+DEx4 work 3 aws 0 22 R7zjCVzfDoIf;cl<n:zj`2
+!i122 10
+l28
+L10 43
+VaiHO`Qfc_?F^Kni^HSBHF2
+!s100 `J3L@A:2Bg<0J=QYI9o>[3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Efa
+Z11 w1629731934
+!i122 9
+R0
+Z12 8../../VHDL_rtl/FA_rtl.vhd
+Z13 F../../VHDL_rtl/FA_rtl.vhd
+l0
+L1 1
+V<Qc?`19NIj_1YnhNnFY8I1
+!s100 njDRR=QGmmACU2azZd4@_0
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/FA_rtl.vhd|
+Z15 !s107 ../../VHDL_rtl/FA_rtl.vhd|
+!i113 1
+R9
+R10
+Afa_rtl
+DEx4 work 2 fa 0 22 <Qc?`19NIj_1YnhNnFY8I1
+!i122 9
+l11
+L7 26
+Vj]J>Lj5;UVYFFgGd_@B^R1
+!s100 [d7z:^bXF@fCXmHVQV63I1
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10
+Eha
+Z16 w1629731859
+!i122 8
+R0
+Z17 8../../VHDL_rtl/HA_rtl.vhd
+Z18 F../../VHDL_rtl/HA_rtl.vhd
+l0
+L1 1
+Va`UcKNChO@8gCN0Co=@In3
+!s100 g_W8QhUdU2>aM^MS]8X<n3
+R4
+32
+R5
+!i10b 1
+R6
+Z19 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/HA_rtl.vhd|
+Z20 !s107 ../../VHDL_rtl/HA_rtl.vhd|
+!i113 1
+R9
+R10
+Aha_rtl
+DEx4 work 2 ha 0 22 a`UcKNChO@8gCN0Co=@In3
+!i122 8
+l17
+L12 13
+V=G6Q0dFA6QD4QSZnfo<kT1
+!s100 Y=l9cHZ6Z1S?f5ZWC>I@`3
+R4
+32
+R5
+!i10b 1
+R6
+R19
+R20
+!i113 1
+R9
+R10
+Etb_aws
+Z21 w1629974711
+!i122 11
+R0
+Z22 8../../VHDL_beh/TB_AWS/TB_AWS.vhd
+Z23 F../../VHDL_beh/TB_AWS/TB_AWS.vhd
+l0
+L1 1
+VIkb5NjiDZ;=Del68kz1Dm0
+!s100 <3K`d^ac4cUz4>MJFn[Km3
+R4
+32
+Z24 !s110 1629974725
+!i10b 1
+R6
+Z25 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/TB_AWS/TB_AWS.vhd|
+Z26 !s107 ../../VHDL_beh/TB_AWS/TB_AWS.vhd|
+!i113 1
+R9
+R10
+Aaws_beh
+Z27 DEx4 work 6 tb_aws 0 22 Ikb5NjiDZ;=Del68kz1Dm0
+!i122 11
+l22
+Z28 L7 22
+VF7Tnh:SSkBP31I_TVVhYf0
+!s100 I8nKIdTXiBcgV<1m6_LVj0
+R4
+32
+R24
+!i10b 1
+R6
+R25
+R26
+!i113 1
+R9
+R10

@@ -1,0 +1,90 @@
+|AW
+NumberA[0] => HA:HA1.a
+NumberA[1] => FA:FA1.a
+NumberA[2] => FA:FA2.a
+NumberA[3] => FA:FA3.a
+NumberB[0] => HA:HA1.b
+NumberB[1] => FA:FA1.b
+NumberB[2] => FA:FA2.b
+NumberB[3] => FA:FA3.b
+NumberC[0] << HA:HA1.s
+NumberC[1] << FA:FA1.s
+NumberC[2] << FA:FA2.s
+NumberC[3] << FA:FA3.s
+NumberC[4] << FA:FA3.c_out
+
+
+|AW|HA:HA1
+a => e.IN0
+a => c_out.IN0
+a => f.IN0
+b => f.IN1
+b => c_out.IN1
+b => e.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AW|FA:FA1
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AW|FA:FA2
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AW|FA:FA3
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

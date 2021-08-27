@@ -1,0 +1,21 @@
+|FA
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

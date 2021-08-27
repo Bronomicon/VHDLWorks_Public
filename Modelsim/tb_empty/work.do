@@ -1,10 +1,10 @@
 # This is a comment #
 
-vlib Mylib
-#create library work#
+vlib MyWorkLib
+#create library MyWorkLib#
 
-vmap work Mylib
-#assign work to library Mylib#
+vmap work MyWorkLib
+#assign work to library MyWorkLiblib#
 
 vcom -work work ../../VHDL_rtl/HA.vhd
 #compile HA.vhd into library work#
@@ -18,7 +18,7 @@ vcom -work work ../../VHDL_rtl/AWS.vhd
 vcom -work work ../../VHDL_beh/TB_AWS/TB_AWS.vhd
 #compile TB_AWS.vhd into library work#
 
-vsim work.TB_AWS
+vsim MyWorkLib.TB_AWS
 #Load TB from Library work into simulator#
 
 view wave

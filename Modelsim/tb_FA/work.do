@@ -1,18 +1,18 @@
 # This is a comment #
 
-vlib work
-#create library work#
+vlib MyWorkLib
+#create physical library MyWorkLib#
 
-vmap work work
-#assign work to library work#
+vmap work MyWorkLib
+#assign logical library work to physical library MyWorkLiblib#
 
-vcom -work work ../../VHDL_rtl/FullAdder.vhd
-#compile FullAdder.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_rtl/FA_rtl.vhd
+#compile FA_rtl.vhd into library MyWorkLib#
 
-vcom -work work ../../VHDL_beh/tb_Fulladder/TB_FullAdder.vhd
-#compile TB_FullAdder.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_beh/TB_FA/TB_FA.vhd
+#compile TB_FA.vhd into library MyWorkLib#
 
-vsim work.tb_Fulladder
+vsim work.TB_FA
 #Load TB from Library work into simulator#
 
 view wave

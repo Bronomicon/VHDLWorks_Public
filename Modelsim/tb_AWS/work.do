@@ -1,25 +1,25 @@
 # This is a comment #
 
-vlib work
-#create library work#
+vlib MyWorkLib
+#create physical library MyWorkLib#
 
-vmap work work
-#assign work to library work#
+vmap work MyWorkLib
+#assign logical library work to physical library MyWorkLiblib#
 
-vcom -work work ../../VHDL_rtl/HalfAdder.vhd
-#compile HalfAdder.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_rtl/HA_rtl.vhd
+#compile HA_rtl.vhd into physical library MyWorkLib#
 
-vcom -work work ../../VHDL_rtl/FullAdder.vhd
-#compile FullAdder.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_rtl/FA_rtl.vhd
+#compile FA_rtl.vhd into physical library MyWorkLib#
 
-vcom -work work ../../VHDL_rtl/Addierwerk_scale.vhd
-#compile Addierwerk.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_rtl/AWS_rtl.vhd
+#compile AW_rtl.vhd into physical library MyWorkLib#
 
-vcom -work work ../../VHDL_beh/TB_Addierwerk_skalierbar/TB_Addierwerk_skalierbar.vhd
-#compile TB_FullAdder.vhd into library work#
+vcom -work MyWorkLib ../../VHDL_beh/TB_AWS/TB_AWS.vhd
+#compile TB_AWS.vhd into physical library MyWorkLib#
 
-vsim work.TB_Addierwerk_scale
-#Load TB from Library work into simulator#
+vsim work.TB_AWS
+#Load TB from logical Library work into simulator#
 
 view wave
 #Show Wave window#
@@ -28,4 +28,4 @@ do wave.do
 #Run Graphic command file#
 
 run 40ns
-#Run simulation for 100ns#
+#Run simulation for 40ns#

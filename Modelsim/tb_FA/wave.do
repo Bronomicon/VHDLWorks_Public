@@ -1,24 +1,24 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /tb_Fulladder/FA_Test/a
-add wave -noupdate /tb_fulladder/FA_Test/b
-add wave -noupdate /tb_fulladder/FA_Test/c_in
-add wave -noupdate /tb_fulladder/FA_Test/s
-add wave -noupdate /tb_fulladder/FA_Test/c_out
-add wave -noupdate /tb_fulladder/FA_Test/d
-add wave -noupdate /tb_fulladder/FA_Test/e
-add wave -noupdate /tb_fulladder/FA_Test/f
-add wave -noupdate /tb_fulladder/FA_Test/g
-add wave -noupdate /tb_fulladder/FA_Test/h
-add wave -noupdate /tb_fulladder/FA_Test/i
-add wave -noupdate /tb_fulladder/FA_Test/j
-add wave -noupdate /tb_fulladder/FA_Test/k
-add wave -noupdate /tb_fulladder/FA_Test/l
-add wave -noupdate /tb_fulladder/FA_Test/m
-add wave -noupdate /tb_fulladder/FA_Test/n
-add wave -noupdate /tb_fulladder/FA_Test/o
-add wave -noupdate /tb_fulladder/FA_Test/p
-add wave -noupdate /tb_fulladder/FA_Test/q
+add wave -noupdate /TB_FA/FA_Test/a
+add wave -noupdate /TB_FA/FA_Test/b
+add wave -noupdate /TB_FA/FA_Test/c_in
+add wave -noupdate /TB_FA/FA_Test/s
+add wave -noupdate /TB_FA/FA_Test/c_out
+add wave -noupdate /TB_FA/FA_Test/d
+add wave -noupdate /TB_FA/FA_Test/e
+add wave -noupdate /TB_FA/FA_Test/f
+add wave -noupdate /TB_FA/FA_Test/g
+add wave -noupdate /TB_FA/FA_Test/h
+add wave -noupdate /TB_FA/FA_Test/i
+add wave -noupdate /TB_FA/FA_Test/j
+add wave -noupdate /TB_FA/FA_Test/k
+add wave -noupdate /TB_FA/FA_Test/l
+add wave -noupdate /TB_FA/FA_Test/m
+add wave -noupdate /TB_FA/FA_Test/n
+add wave -noupdate /TB_FA/FA_Test/o
+add wave -noupdate /TB_FA/FA_Test/p
+add wave -noupdate /TB_FA/FA_Test/q
 
 
 
@@ -39,4 +39,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {21312 ps} {342642 ps}
+WaveRestoreZoom {0 ps} {40000 ps}

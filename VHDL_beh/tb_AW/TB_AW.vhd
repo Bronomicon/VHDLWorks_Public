@@ -1,11 +1,11 @@
-ENTITY TB_Addierwerk IS
+ENTITY TB_AW IS
 
-END TB_Addierwerk;
+END TB_AW;
 
 
-ARCHITECTURE BEH_Addierwerk OF TB_Addierwerk IS
+ARCHITECTURE AW_BEH OF TB_AW IS
 	
-	COMPONENT Addierwerk IS
+	COMPONENT AW IS
 	GENERIC	(N: Integer:=4); --Bitmenge des Addierwerkes
 	PORT		(NumberA:	IN BIT_VECTOR (N-1 DOWNTO 0);
 				 NumberB:	IN BIT_VECTOR (N-1 DOWNTO 0);
@@ -19,11 +19,11 @@ ARCHITECTURE BEH_Addierwerk OF TB_Addierwerk IS
 
 	
 	BEGIN
-	Addierwerk_TEST: Addierwerk PORT MAP(NumberA_test, NumberB_test, NumberC_test);
+	AW_TEST: AW PORT MAP(NumberA_test, NumberB_test, NumberC_test);
 	
 	NumberA_test <= "0000", "0001" AFTER 10ns, "1011" AFTER 20ns, "1111" AFTER 30ns;
 	NumberB_test <= "0000", "0001" AFTER 10ns, "1011" AFTER 20ns, "1111" AFTER 30ns;
 
-END BEH_Addierwerk;
+END AW_BEH;
 		
 		

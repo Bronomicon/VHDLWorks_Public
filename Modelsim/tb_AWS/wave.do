@@ -1,8 +1,8 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /TB_Addierwerk_scale/Addierwerk_Test/NumberA
-add wave -noupdate /TB_Addierwerk_scale/Addierwerk_Test/NumberB
-add wave -noupdate /TB_Addierwerk_scale/Addierwerk_Test/NumberC
+add wave -noupdate /TB_AWS/AWS_TEST/NumberA
+add wave -noupdate /TB_AWS/AWS_TEST/NumberB
+add wave -noupdate /TB_AWS/AWS_TEST/NumberC
 
 
 
@@ -23,4 +23,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {100000 ps}
+WaveRestoreZoom {0 ps} {40000 ps}

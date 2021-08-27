@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL_public/Modelsim/tb_HA
+Eha
+Z1 w1629731859
+!i122 6
+R0
+Z2 8../../VHDL_rtl/HA_rtl.vhd
+Z3 F../../VHDL_rtl/HA_rtl.vhd
+l0
+L1 1
+Va`UcKNChO@8gCN0Co=@In3
+!s100 g_W8QhUdU2>aM^MS]8X<n3
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1629973743
+!i10b 1
+Z6 !s108 1629973743.000000
+Z7 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/HA_rtl.vhd|
+Z8 !s107 ../../VHDL_rtl/HA_rtl.vhd|
+!i113 1
+Z9 o-work MyWorkLib
+Z10 tExplicit 1 CvgOpt 0
+Aha_rtl
+DEx4 work 2 ha 0 22 a`UcKNChO@8gCN0Co=@In3
+!i122 6
+l17
+L12 13
+V=G6Q0dFA6QD4QSZnfo<kT1
+!s100 Y=l9cHZ6Z1S?f5ZWC>I@`3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Etb_ha
+Z11 w1629810013
+!i122 7
+R0
+Z12 8../../VHDL_beh/TB_HA/TB_HA.vhd
+Z13 F../../VHDL_beh/TB_HA/TB_HA.vhd
+l0
+L1 1
+VN`f`IjT>EcF1=]kH>QbJV1
+!s100 h^WE7mMEnP:f6b_cf0ieD2
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/TB_HA/TB_HA.vhd|
+Z15 !s107 ../../VHDL_beh/TB_HA/TB_HA.vhd|
+!i113 1
+R9
+R10
+Aha_beh
+Z16 DEx4 work 5 tb_ha 0 22 N`f`IjT>EcF1=]kH>QbJV1
+!i122 7
+l21
+Z17 L6 21
+Z18 VWDRf1i39`Z`CahY1RP4Jo2
+Z19 !s100 <RX1?C6SWz9h;P=SmYjhi1
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10

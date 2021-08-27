@@ -1,0 +1,138 @@
+|AWS
+NumberA[0] => HA:Generate_Adder:0:Gen_0:HA_0.a
+NumberA[1] => FA:Generate_Adder:1:Gen_i:FA_i.a
+NumberA[2] => FA:Generate_Adder:2:Gen_i:FA_i.a
+NumberA[3] => FA:Generate_Adder:3:Gen_i:FA_i.a
+NumberA[4] => FA:Generate_Adder:4:Gen_i:FA_i.a
+NumberA[5] => FA:Generate_Adder:5:Gen_N:FA_N.a
+NumberB[0] => HA:Generate_Adder:0:Gen_0:HA_0.b
+NumberB[1] => FA:Generate_Adder:1:Gen_i:FA_i.b
+NumberB[2] => FA:Generate_Adder:2:Gen_i:FA_i.b
+NumberB[3] => FA:Generate_Adder:3:Gen_i:FA_i.b
+NumberB[4] => FA:Generate_Adder:4:Gen_i:FA_i.b
+NumberB[5] => FA:Generate_Adder:5:Gen_N:FA_N.b
+NumberC[0] <= HA:Generate_Adder:0:Gen_0:HA_0.s
+NumberC[1] <= FA:Generate_Adder:1:Gen_i:FA_i.s
+NumberC[2] <= FA:Generate_Adder:2:Gen_i:FA_i.s
+NumberC[3] <= FA:Generate_Adder:3:Gen_i:FA_i.s
+NumberC[4] <= FA:Generate_Adder:4:Gen_i:FA_i.s
+NumberC[5] <= FA:Generate_Adder:5:Gen_N:FA_N.s
+NumberC[6] <= FA:Generate_Adder:5:Gen_N:FA_N.c_out
+
+
+|AWS|HA:\Generate_Adder:0:Gen_0:HA_0
+a => e.IN0
+a => c_out.IN0
+a => f.IN0
+b => f.IN1
+b => c_out.IN1
+b => e.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AWS|FA:\Generate_Adder:1:Gen_i:FA_i
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AWS|FA:\Generate_Adder:2:Gen_i:FA_i
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AWS|FA:\Generate_Adder:3:Gen_i:FA_i
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AWS|FA:\Generate_Adder:4:Gen_i:FA_i
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AWS|FA:\Generate_Adder:5:Gen_N:FA_N
+a => d.IN0
+a => f.IN0
+a => q.IN1
+a => m.IN1
+b => d.IN1
+b => f.IN1
+b => k.IN0
+b => o.IN0
+b => j.IN0
+b => n.IN0
+c_in => e.IN1
+c_in => j.IN1
+c_in => o.IN1
+c_in => f.IN1
+c_in => k.IN1
+c_in => n.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

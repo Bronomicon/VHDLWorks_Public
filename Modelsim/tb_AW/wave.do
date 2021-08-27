@@ -1,8 +1,8 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /tb_Addierwerk/Addierwerk_Test/NumberA
-add wave -noupdate /tb_Addierwerk/Addierwerk_Test/NumberB
-add wave -noupdate /tb_Addierwerk/Addierwerk_Test/NumberC
+add wave -noupdate /TB_AW/AW_TEST/NumberA
+add wave -noupdate /TB_AW/AW_TEST/NumberB
+add wave -noupdate /TB_AW/AW_TEST/NumberC
 
 
 
