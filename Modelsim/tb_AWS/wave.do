@@ -1,8 +1,9 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /TB_AWS/AWS_TEST/NumberA
-add wave -noupdate /TB_AWS/AWS_TEST/NumberB
-add wave -noupdate /TB_AWS/AWS_TEST/NumberC
+add wave -noupdate /TB_AWS/AWS_TEST/A_IN
+add wave -noupdate /TB_AWS/AWS_TEST/B_IN
+add wave -noupdate /TB_AWS/AWS_TEST/V_OUT
+add wave -noupdate /TB_AWS/AWS_TEST/C_OUT
 
 
 

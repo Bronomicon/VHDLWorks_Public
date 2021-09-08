@@ -1,5 +1,5 @@
 Flow report for Addierwerk_skalierbar
-Tue Aug 24 15:18:38 2021
+Sat Aug 28 13:08:59 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Aug 24 15:18:33 2021       ;
+; Flow Status                     ; Successful - Sat Aug 28 13:08:52 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; Addierwerk_skalierbar                       ;
 ; Top-level Entity Name           ; AWS                                         ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 08/24/2021 15:17:55   ;
+; Start date & time ; 08/28/2021 13:08:17   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; Addierwerk_skalierbar ;
 +-------------------+-----------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+-----------------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value         ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+-----------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 30902517424230.162981107411920         ; --                    ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 30902517424230.163014889723136         ; --                    ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                    ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                    ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                    ; AWS         ; Top        ;
@@ -97,11 +97,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4850 MB             ; 00:00:19                           ;
-; Fitter               ; 00:00:23     ; 1.0                     ; 6653 MB             ; 00:00:46                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4826 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5137 MB             ; 00:00:04                           ;
-; Total                ; 00:00:41     ; --                      ; --                  ; 00:01:15                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4843 MB             ; 00:00:15                           ;
+; Fitter               ; 00:00:21     ; 1.0                     ; 6649 MB             ; 00:00:41                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4830 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 5137 MB             ; 00:00:04                           ;
+; Total                ; 00:00:40     ; --                      ; --                  ; 00:01:06                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

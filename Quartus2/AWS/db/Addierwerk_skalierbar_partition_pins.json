@@ -4,79 +4,79 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "NumberC[0]",
+					"name" : "V_Out[0]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[1]",
+					"name" : "V_Out[1]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[2]",
+					"name" : "V_Out[2]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[3]",
+					"name" : "V_Out[3]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[4]",
+					"name" : "V_Out[4]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[5]",
+					"name" : "V_Out[5]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberC[6]",
+					"name" : "C_Out",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[0]",
+					"name" : "A_In[0]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[0]",
+					"name" : "B_In[0]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[1]",
+					"name" : "A_In[1]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[1]",
+					"name" : "B_In[1]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[2]",
+					"name" : "A_In[2]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[2]",
+					"name" : "B_In[2]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[3]",
+					"name" : "A_In[3]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[3]",
+					"name" : "B_In[3]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[4]",
+					"name" : "A_In[4]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[4]",
+					"name" : "B_In[4]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberA[5]",
+					"name" : "A_In[5]",
 					"strict" : false
 				},
 				{
-					"name" : "NumberB[5]",
+					"name" : "B_In[5]",
 					"strict" : false
 				}
 			]

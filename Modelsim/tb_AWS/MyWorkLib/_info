@@ -10,32 +10,32 @@ z2
 cModel Technology
 Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL_public/Modelsim/tb_AWS
 Eaws
-Z1 w1629732149
-!i122 10
+Z1 w1630146468
+!i122 58
 R0
 Z2 8../../VHDL_rtl/AWS_rtl.vhd
 Z3 F../../VHDL_rtl/AWS_rtl.vhd
 l0
 L1 1
-VR7zjCVzfDoIf;cl<n:zj`2
-!s100 G73Zin^4R`gc]5@;KJEAI2
+VDN4?>8>Y[TN^IbOVSi1D80
+!s100 ibW50;VnPiD]2kG4FF5b`0
 Z4 OV;C;2020.1;71
 32
-Z5 !s110 1629974724
+Z5 !s110 1630148852
 !i10b 1
-Z6 !s108 1629974724.000000
+Z6 !s108 1630148852.000000
 Z7 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/AWS_rtl.vhd|
 Z8 !s107 ../../VHDL_rtl/AWS_rtl.vhd|
 !i113 1
 Z9 o-work MyWorkLib
 Z10 tExplicit 1 CvgOpt 0
 Aaws_rtl
-DEx4 work 3 aws 0 22 R7zjCVzfDoIf;cl<n:zj`2
-!i122 10
+DEx4 work 3 aws 0 22 DN4?>8>Y[TN^IbOVSi1D80
+!i122 58
 l28
 L10 43
-VaiHO`Qfc_?F^Kni^HSBHF2
-!s100 `J3L@A:2Bg<0J=QYI9o>[3
+Vd?9_:lW]GoOImj81GcAci3
+!s100 2M872h1Dnc;g4lJOPXlbT0
 R4
 32
 R5
@@ -48,7 +48,7 @@ R9
 R10
 Efa
 Z11 w1629731934
-!i122 9
+!i122 57
 R0
 Z12 8../../VHDL_rtl/FA_rtl.vhd
 Z13 F../../VHDL_rtl/FA_rtl.vhd
@@ -68,7 +68,7 @@ R9
 R10
 Afa_rtl
 DEx4 work 2 fa 0 22 <Qc?`19NIj_1YnhNnFY8I1
-!i122 9
+!i122 57
 l11
 L7 26
 Vj]J>Lj5;UVYFFgGd_@B^R1
@@ -85,7 +85,7 @@ R9
 R10
 Eha
 Z16 w1629731859
-!i122 8
+!i122 56
 R0
 Z17 8../../VHDL_rtl/HA_rtl.vhd
 Z18 F../../VHDL_rtl/HA_rtl.vhd
@@ -105,7 +105,7 @@ R9
 R10
 Aha_rtl
 DEx4 work 2 ha 0 22 a`UcKNChO@8gCN0Co=@In3
-!i122 8
+!i122 56
 l17
 L12 13
 V=G6Q0dFA6QD4QSZnfo<kT1
@@ -121,39 +121,39 @@ R20
 R9
 R10
 Etb_aws
-Z21 w1629974711
-!i122 11
+Z21 w1630148847
+!i122 59
 R0
 Z22 8../../VHDL_beh/TB_AWS/TB_AWS.vhd
 Z23 F../../VHDL_beh/TB_AWS/TB_AWS.vhd
 l0
 L1 1
-VIkb5NjiDZ;=Del68kz1Dm0
-!s100 <3K`d^ac4cUz4>MJFn[Km3
+V81O>J6?DJSnHb>C5^]o^`2
+!s100 7Qh@5Lda00^;B<]fQRl6D0
 R4
 32
-Z24 !s110 1629974725
+R5
 !i10b 1
 R6
-Z25 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/TB_AWS/TB_AWS.vhd|
-Z26 !s107 ../../VHDL_beh/TB_AWS/TB_AWS.vhd|
+Z24 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/TB_AWS/TB_AWS.vhd|
+Z25 !s107 ../../VHDL_beh/TB_AWS/TB_AWS.vhd|
 !i113 1
 R9
 R10
 Aaws_beh
-Z27 DEx4 work 6 tb_aws 0 22 Ikb5NjiDZ;=Del68kz1Dm0
-!i122 11
-l22
-Z28 L7 22
-VF7Tnh:SSkBP31I_TVVhYf0
-!s100 I8nKIdTXiBcgV<1m6_LVj0
+Z26 DEx4 work 6 tb_aws 0 22 81O>J6?DJSnHb>C5^]o^`2
+!i122 59
+l24
+Z27 L7 24
+Vjm7bbklUd8cF4X325d]mz1
+!s100 jL5?4<K<lzQg0<Ji7>4dk2
 R4
 32
-R24
+R5
 !i10b 1
 R6
+R24
 R25
-R26
 !i113 1
 R9
 R10

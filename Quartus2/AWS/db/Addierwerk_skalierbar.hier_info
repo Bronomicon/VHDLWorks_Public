@@ -1,23 +1,23 @@
 |AWS
-NumberA[0] => HA:Generate_Adder:0:Gen_0:HA_0.a
-NumberA[1] => FA:Generate_Adder:1:Gen_i:FA_i.a
-NumberA[2] => FA:Generate_Adder:2:Gen_i:FA_i.a
-NumberA[3] => FA:Generate_Adder:3:Gen_i:FA_i.a
-NumberA[4] => FA:Generate_Adder:4:Gen_i:FA_i.a
-NumberA[5] => FA:Generate_Adder:5:Gen_N:FA_N.a
-NumberB[0] => HA:Generate_Adder:0:Gen_0:HA_0.b
-NumberB[1] => FA:Generate_Adder:1:Gen_i:FA_i.b
-NumberB[2] => FA:Generate_Adder:2:Gen_i:FA_i.b
-NumberB[3] => FA:Generate_Adder:3:Gen_i:FA_i.b
-NumberB[4] => FA:Generate_Adder:4:Gen_i:FA_i.b
-NumberB[5] => FA:Generate_Adder:5:Gen_N:FA_N.b
-NumberC[0] <= HA:Generate_Adder:0:Gen_0:HA_0.s
-NumberC[1] <= FA:Generate_Adder:1:Gen_i:FA_i.s
-NumberC[2] <= FA:Generate_Adder:2:Gen_i:FA_i.s
-NumberC[3] <= FA:Generate_Adder:3:Gen_i:FA_i.s
-NumberC[4] <= FA:Generate_Adder:4:Gen_i:FA_i.s
-NumberC[5] <= FA:Generate_Adder:5:Gen_N:FA_N.s
-NumberC[6] <= FA:Generate_Adder:5:Gen_N:FA_N.c_out
+A_In[0] => HA:Generate_Adder:0:Gen_0:HA_0.a
+A_In[1] => FA:Generate_Adder:1:Gen_i:FA_i.a
+A_In[2] => FA:Generate_Adder:2:Gen_i:FA_i.a
+A_In[3] => FA:Generate_Adder:3:Gen_i:FA_i.a
+A_In[4] => FA:Generate_Adder:4:Gen_i:FA_i.a
+A_In[5] => FA:Generate_Adder:5:Gen_N:FA_N.a
+B_In[0] => HA:Generate_Adder:0:Gen_0:HA_0.b
+B_In[1] => FA:Generate_Adder:1:Gen_i:FA_i.b
+B_In[2] => FA:Generate_Adder:2:Gen_i:FA_i.b
+B_In[3] => FA:Generate_Adder:3:Gen_i:FA_i.b
+B_In[4] => FA:Generate_Adder:4:Gen_i:FA_i.b
+B_In[5] => FA:Generate_Adder:5:Gen_N:FA_N.b
+V_Out[0] << HA:Generate_Adder:0:Gen_0:HA_0.s
+V_Out[1] << FA:Generate_Adder:1:Gen_i:FA_i.s
+V_Out[2] << FA:Generate_Adder:2:Gen_i:FA_i.s
+V_Out[3] << FA:Generate_Adder:3:Gen_i:FA_i.s
+V_Out[4] << FA:Generate_Adder:4:Gen_i:FA_i.s
+V_Out[5] << FA:Generate_Adder:5:Gen_N:FA_N.s
+C_Out << FA:Generate_Adder:5:Gen_N:FA_N.c_out
 
 
 |AWS|HA:\Generate_Adder:0:Gen_0:HA_0

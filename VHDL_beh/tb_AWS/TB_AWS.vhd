@@ -1,5 +1,5 @@
 ENTITY TB_AWS IS
-	GENERIC (N: Integer :=6);
+	GENERIC (N: Integer :=7);
 
 END TB_AWS;
 
@@ -7,23 +7,25 @@ END TB_AWS;
 ARCHITECTURE AWS_beh OF TB_AWS IS
 
 	COMPONENT AWS IS
-	GENERIC	(N: Integer:=6); --Bitmenge des Addierwerkes
-	PORT		(NumberA:	IN BIT_VECTOR (N-1 DOWNTO 0);
-				 NumberB:	IN BIT_VECTOR (N-1 DOWNTO 0);
-				 NumberC:	OUT BIT_VECTOR (N DOWNTO 0));
+	GENERIC	(N: Integer:=7); --Bitmenge des Addierwerkes
+	PORT		(A_IN:	IN BIT_VECTOR (N-1 DOWNTO 0);
+				 B_IN:	IN BIT_VECTOR (N-1 DOWNTO 0);
+				 V_OUT:	OUT BIT_VECTOR (N-1 DOWNTO 0);
+				 C_OUT:  OUT BIT);
 	END COMPONENT;
 
 
-   SIGNAL NumberA_test: BIT_VECTOR (N-1 DOWNTO 0);
-	SIGNAL NumberB_test: BIT_VECTOR (N-1 DOWNTO 0);
-	SIGNAL NumberC_test: BIT_VECTOR (N DOWNTO 0);
+   SIGNAL A_IN_test: BIT_VECTOR (N-1 DOWNTO 0);
+	SIGNAL B_IN_test: BIT_VECTOR (N-1 DOWNTO 0);
+	SIGNAL V_OUT_test: BIT_VECTOR (N-1 DOWNTO 0);
+	SIGNAL C_OUT_Test: BIT;
 
 
 	BEGIN
-	AWS_TEST: AWS PORT MAP(NumberA_test, NumberB_test, NumberC_test);
+	AWS_TEST: AWS PORT MAP(A_IN_test, B_IN_test, V_OUT_test, C_OUT_test);
 
-	NumberA_test <= "000000", "000101" AFTER 10ns, "101101" AFTER 20ns, "111111" AFTER 30ns;
-	NumberB_test <= "000000", "000101" AFTER 10ns, "101101" AFTER 20ns, "111111" AFTER 30ns;
+	A_IN_test <= "0000000", "0000101" AFTER 10ns, "0101101" AFTER 20ns, "1111110" AFTER 30ns;
+	B_IN_test <= "0000000", "0000101" AFTER 10ns, "0101101" AFTER 20ns, "1111110" AFTER 30ns;
 
 END AWS_beh;
 

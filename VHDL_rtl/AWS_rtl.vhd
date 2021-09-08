@@ -1,11 +1,11 @@
 ENTITY AWS IS
 	GENERIC	(N: Integer:=6); --Bitmenge des Addierwerkes
-	PORT		(NumberA:	IN BIT_VECTOR (N-1 DOWNTO 0);
-				 NumberB:	IN BIT_VECTOR (N-1 DOWNTO 0);
-				 NumberC:	OUT BIT_VECTOR (N DOWNTO 0));
+	PORT		(A_In:	IN BIT_VECTOR (N-1 DOWNTO 0);
+				 B_In:	IN BIT_VECTOR (N-1 DOWNTO 0);
+				 V_Out:	OUT BIT_VECTOR (N-1 DOWNTO 0);
+				 C_Out:  OUT BIT);
+				 
 END AWS;
-
-
 
 ARCHITECTURE AWS_rtl OF AWS IS
 
@@ -31,19 +31,19 @@ BEGIN
 
 			Gen_0: IF i = 0 GENERATE
 
-				HA_0: HA PORT MAP(NumberA(i), NumberB(i), NumberC(i), co(i));
+				HA_0: HA PORT MAP(A_IN(i), B_IN(i), V_OUT(i), co(i));
 
 			END GENERATE Gen_0;
 
 			Gen_i: IF i > 0 AND i < N-1 GENERATE
 
-				FA_i: FA PORT MAP(NumberA(i), NumberB(i), co(i-1), NumberC(i), co(i));
+				FA_i: FA PORT MAP(A_IN(i), B_IN(i), co(i-1), V_OUT(i), co(i));
 
 			END GENERATE Gen_i;
 
 			Gen_N: IF i = N-1 GENERATE
 
-				FA_N: FA PORT MAP(NumberA(i), NumberB(i), co(i-1), NumberC(i), NumberC(i+1));
+				FA_N: FA PORT MAP(A_IN(i), B_IN(i), co(i-1), V_OUT(i), C_OUT);
 
 			END GENERATE Gen_N;
 

@@ -1,0 +1,255 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Patri/Documents/Serious Stuff/Coding/VHDL_public/Modelsim/tb_BCD
+Eaws
+Z1 w1630146468
+!i122 61
+R0
+Z2 8../../VHDL_rtl/AWS_rtl.vhd
+Z3 F../../VHDL_rtl/AWS_rtl.vhd
+l0
+L1 1
+VDN4?>8>Y[TN^IbOVSi1D80
+!s100 ibW50;VnPiD]2kG4FF5b`0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1630497239
+!i10b 1
+Z6 !s108 1630497239.000000
+Z7 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/AWS_rtl.vhd|
+Z8 !s107 ../../VHDL_rtl/AWS_rtl.vhd|
+!i113 1
+Z9 o-work MyWorkLib
+Z10 tExplicit 1 CvgOpt 0
+Aaws_rtl
+DEx4 work 3 aws 0 22 DN4?>8>Y[TN^IbOVSi1D80
+!i122 61
+l28
+L10 43
+Vd?9_:lW]GoOImj81GcAci3
+!s100 2M872h1Dnc;g4lJOPXlbT0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Ecountbcd
+Z11 w1630497234
+!i122 62
+R0
+Z12 8../../VHDL_rtl/BCD_rtl.vhd
+Z13 F../../VHDL_rtl/BCD_rtl.vhd
+l0
+Z14 L10 1
+VWla9a4OKXL]0_hmeD[JZZ1
+!s100 UWA6ekh_]NKF:L?JZzF[A1
+R4
+32
+R5
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/BCD_rtl.vhd|
+Z16 !s107 ../../VHDL_rtl/BCD_rtl.vhd|
+!i113 1
+R9
+R10
+Abcd_rtl_v2
+Z17 DEx4 work 8 countbcd 0 22 Wla9a4OKXL]0_hmeD[JZZ1
+!i122 62
+l71
+L69 39
+VXaS^zini@7aoNJGReEhKZ1
+!s100 E3GgcXE]dTjz9G=LJDBRC1
+R4
+32
+R5
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R9
+R10
+Abcd_rtl_v1
+R17
+!i122 62
+l33
+Z18 L21 47
+VZ06AY<`Ra0G:[C^JnnBW43
+!s100 i59OX<YK>:2UEgo>2;kON3
+R4
+32
+R5
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R9
+R10
+Abcd_rtl
+R17
+!i122 52
+l33
+R18
+VB75cSEfo0lX7[>JDe@7b=1
+!s100 N@[cY8Y7:>ZOW?f[^9BZi2
+R4
+32
+!s110 1630156974
+!i10b 1
+!s108 1630156974.000000
+R15
+R16
+!i113 1
+R9
+R10
+w1630150119
+Cdef_bcd
+eCountBCD
+aBCD_rtl_v2
+DAx4 work 8 countbcd 10 bcd_rtl_v2 22 XaS^zini@7aoNJGReEhKZ1
+R17
+!i122 62
+R11
+R0
+R12
+R13
+l0
+L109 1
+Ve3>Yi[6id69=4VfTS[5ln2
+!s100 eg;`MSEn7=UHg2]GQL1^N2
+R4
+32
+R5
+!i10b 0
+R6
+R15
+R16
+!i113 1
+R9
+R10
+Efa
+Z19 w1629731934
+!i122 60
+R0
+Z20 8../../VHDL_rtl/FA_rtl.vhd
+Z21 F../../VHDL_rtl/FA_rtl.vhd
+l0
+L1 1
+V<Qc?`19NIj_1YnhNnFY8I1
+!s100 njDRR=QGmmACU2azZd4@_0
+R4
+32
+R5
+!i10b 1
+R6
+Z22 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/FA_rtl.vhd|
+Z23 !s107 ../../VHDL_rtl/FA_rtl.vhd|
+!i113 1
+R9
+R10
+Afa_rtl
+DEx4 work 2 fa 0 22 <Qc?`19NIj_1YnhNnFY8I1
+!i122 60
+l11
+L7 26
+Vj]J>Lj5;UVYFFgGd_@B^R1
+!s100 [d7z:^bXF@fCXmHVQV63I1
+R4
+32
+R5
+!i10b 1
+R6
+R22
+R23
+!i113 1
+R9
+R10
+Eha
+Z24 w1629731859
+!i122 59
+R0
+Z25 8../../VHDL_rtl/HA_rtl.vhd
+Z26 F../../VHDL_rtl/HA_rtl.vhd
+l0
+L1 1
+Va`UcKNChO@8gCN0Co=@In3
+!s100 g_W8QhUdU2>aM^MS]8X<n3
+R4
+32
+R5
+!i10b 1
+R6
+Z27 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_rtl/HA_rtl.vhd|
+Z28 !s107 ../../VHDL_rtl/HA_rtl.vhd|
+!i113 1
+R9
+R10
+Aha_rtl
+DEx4 work 2 ha 0 22 a`UcKNChO@8gCN0Co=@In3
+!i122 59
+l17
+L12 13
+V=G6Q0dFA6QD4QSZnfo<kT1
+!s100 Y=l9cHZ6Z1S?f5ZWC>I@`3
+R4
+32
+R5
+!i10b 1
+R6
+R27
+R28
+!i113 1
+R9
+R10
+Etb_bcd
+Z29 w1630156662
+!i122 63
+R0
+Z30 8../../VHDL_beh/TB_BCD/TB_BCD.vhd
+Z31 F../../VHDL_beh/TB_BCD/TB_BCD.vhd
+l0
+R14
+Vd7S64?2k5J;mH42_]>=a20
+!s100 cRIU@jXaVzHAm6;z][Bzi0
+R4
+32
+R5
+!i10b 1
+R6
+Z32 !s90 -reportprogress|300|-work|MyWorkLib|../../VHDL_beh/TB_BCD/TB_BCD.vhd|
+Z33 !s107 ../../VHDL_beh/TB_BCD/TB_BCD.vhd|
+!i113 1
+R9
+R10
+Abcd_beh
+Z34 DEx4 work 6 tb_bcd 0 22 d7S64?2k5J;mH42_]>=a20
+!i122 63
+l28
+Z35 L14 24
+Z36 VA_@=AdnOIblJi;a;5no7?0
+Z37 !s100 XV`CdMZclQBTn7EzbkU330
+R4
+32
+R5
+!i10b 1
+R6
+R32
+R33
+!i113 1
+R9
+R10
